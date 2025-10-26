@@ -1,4 +1,4 @@
-import { callBedrock } from './aiClient.js';
+import { callBedrock} from './aiclient.js';
 import { INTENT_TYPES } from './intent.js';
 
 /**
