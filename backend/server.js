@@ -3,12 +3,13 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import cron from "node-cron";
-
+import sreRoutes from "../backend/routers/sreRoutes.js"
 dotenv.config();
 
 import { runAgent } from "./utilityHooks/agent.js";
 // Add this import at the top
 import { handleConversationalQuery } from "./utilityHooks/conversationalAgent.js";
+import chatrouter from "./routers/chatrouter.js";
 
 const app = express();
 const PORT = process.env.PORT || 8001;
@@ -145,30 +146,14 @@ app.get("/api/pt-status", async (req, res) => {
 // Add this new endpoint after your existing endpoints
 // Conversational AI endpoint - THE GAME CHANGER! 🚀
 // Replace the debug chat endpoint in your server.js with this:
-app.post("/api/chat", async (req, res) => {
-  const { query, cluster } = req.body;
-  
-  console.log(`[API] Conversational query: "${query}" for cluster: ${cluster || "ALL"}`);
-  
-  if (!query) {
-    return res.status(400).json({ ok: false, error: "Query is required" });
-  }
-  
-  try {
-    // Use the real conversational agent instead of debug response
-    const response = await handleConversationalQuery(query, cluster);
-    console.log(`[API] Chat response generated successfully`);
-    res.json(response);
-  } catch (error) {
-    console.error("[API] Chat error:", error);
-    res.status(500).json({ 
-      ok: false, 
-      error: "Failed to process conversational query",
-      details: error.message
-    });
-  }
-});
 
+// AI ASSItant
+app.use("/api/chat", chatrouter);
+
+
+// CMR ANALyzer
+
+app.use("/api/sre", sreRoutes);
 
 
 // Batch analysis endpoint for multiple clusters
