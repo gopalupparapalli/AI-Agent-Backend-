@@ -1,0 +1,20 @@
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:00:00Z","level":"INFO","message":"Service started","server":"prd-node-1","latency":15}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:05:00Z","level":"WARN","message":"High CPU usage detected","server":"prd-node-2","latency":35}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:10:00Z","level":"ERROR","message":"Database connection failed","server":"prd-db-1","latency":0}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:15:00Z","level":"DEBUG","message":"Cache refreshed","server":"prd-node-3","latency":7}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:20:00Z","level":"INFO","message":"User login successful","server":"prd-node-1","latency":22}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:25:00Z","level":"ERROR","message":"Payment processing failed","server":"prd-payment-1","latency":140}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:30:00Z","level":"WARN","message":"Low disk space","server":"prd-node-2","latency":0}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:35:00Z","level":"DEBUG","message":"Job queue processed","server":"prd-node-3","latency":12}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:40:00Z","level":"INFO","message":"Backup completed","server":"prd-db-1","latency":60}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-27T07:45:00Z","level":"ERROR","message":"Third-party API timeout","server":"prd-api-3","latency":510}

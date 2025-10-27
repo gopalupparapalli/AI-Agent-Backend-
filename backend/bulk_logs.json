@@ -1,0 +1,400 @@
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T06:37:55.640Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Container restarted","server":"prd-node-2","latency":251}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T09:09:21.326Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Service healthy","server":"prd-node-1","latency":275}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T12:38:37.595Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Service healthy","server":"prd-api-3","latency":247}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T10:21:45.447Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":41}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T15:50:56.457Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Database reconnecting","server":"prd-api-3","latency":141}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T08:41:48.739Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":262}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T14:11:46.656Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Cache eviction initiated","server":"prd-node-1","latency":161}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T08:08:58.357Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":28}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T08:06:48.055Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Circuit breaker opened","server":"prd-api-3","latency":132}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T07:34:04.765Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Database reconnecting","server":"prd-node-1","latency":173}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T13:36:47.207Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Latency spike detected","server":"prd-cache-1","latency":36}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T12:53:34.752Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":128}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T05:17:19.121Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":200},"message":"Latency spike detected","server":"prd-api-3","latency":260}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T18:30:24.285Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-node-1","latency":237}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T23:42:08.694Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Database reconnecting","server":"prd-node-2","latency":93}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T08:32:53.971Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":192}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T01:55:30.448Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"User API error","server":"prd-node-2","latency":128}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T08:31:01.563Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":400},"message":"User API error","server":"prd-node-2","latency":280}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T07:26:30.489Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":231}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T01:50:13.735Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-cache-1","latency":120}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T20:34:27.940Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-node-1","latency":42}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T01:52:52.421Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":500},"message":"User API error","server":"prd-cache-1","latency":81}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T07:56:26.025Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":145}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T00:45:01.094Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Service healthy","server":"prd-node-2","latency":155}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T16:16:50.336Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Database reconnecting","server":"prd-api-3","latency":128}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T08:58:00.359Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Latency spike detected","server":"prd-cache-1","latency":91}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T15:27:59.191Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Database reconnecting","server":"prd-cache-1","latency":196}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T12:41:22.726Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Cache eviction initiated","server":"prd-cache-1","latency":12}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T19:56:42.494Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Cache eviction initiated","server":"prd-api-3","latency":143}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T21:09:23.368Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-node-2","latency":245}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T21:43:44.355Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Service healthy","server":"prd-api-3","latency":41}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T17:26:12.025Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Container restarted","server":"prd-node-2","latency":145}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T16:59:07.319Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Service healthy","server":"prd-api-3","latency":245}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T10:48:59.125Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Latency spike detected","server":"prd-node-1","latency":255}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T08:34:11.409Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Latency spike detected","server":"prd-node-2","latency":13}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T08:31:50.057Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Circuit breaker opened","server":"prd-api-3","latency":118}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T01:27:47.167Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-node-1","latency":243}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T17:59:29.076Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Cache eviction initiated","server":"prd-node-1","latency":8}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T23:48:02.772Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Cache eviction initiated","server":"prd-api-3","latency":46}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T03:46:22.474Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Cache eviction initiated","server":"prd-cache-1","latency":65}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T04:59:31.395Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Latency spike detected","server":"prd-node-2","latency":75}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T01:36:55.073Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Service healthy","server":"prd-api-3","latency":146}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T06:49:18.712Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-api-3","latency":161}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T10:35:17.565Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Database reconnecting","server":"prd-node-2","latency":222}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T10:08:26.106Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Circuit breaker opened","server":"prd-node-1","latency":205}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T02:46:50.185Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Database reconnecting","server":"prd-node-1","latency":193}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T02:50:05.623Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Database reconnecting","server":"prd-node-2","latency":176}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T23:51:33.258Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Container restarted","server":"prd-cache-1","latency":269}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T20:59:15.732Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Service healthy","server":"prd-api-3","latency":168}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T00:33:04.359Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Cache eviction initiated","server":"prd-node-2","latency":241}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T01:04:42.957Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":235}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T07:18:23.730Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Database reconnecting","server":"prd-api-3","latency":298}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T09:45:35.935Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Container restarted","server":"prd-node-1","latency":248}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T13:28:39.439Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-api-3","latency":185}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T05:29:13.274Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Cache eviction initiated","server":"prd-node-1","latency":178}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T14:36:33.823Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":500},"message":"User API error","server":"prd-api-3","latency":157}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T06:05:18.359Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":114}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T03:56:18.463Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":19}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T10:26:49.468Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-api-3","latency":274}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T17:04:59.664Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":270}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T20:58:31.430Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Circuit breaker opened","server":"prd-node-2","latency":167}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T07:07:12.717Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Service healthy","server":"prd-node-1","latency":185}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T10:04:33.039Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-api-3","latency":287}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T16:44:07.967Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-cache-1","latency":21}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T08:43:44.585Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":217}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T14:19:27.534Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-node-2","latency":53}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T16:03:17.184Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":200},"message":"User API error","server":"prd-node-1","latency":183}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T02:42:49.965Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Database reconnecting","server":"prd-cache-1","latency":77}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T13:42:15.579Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"User API error","server":"prd-cache-1","latency":5}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T10:46:47.851Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Database reconnecting","server":"prd-api-3","latency":42}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T17:50:01.660Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Container restarted","server":"prd-node-1","latency":265}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T06:37:24.887Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Circuit breaker opened","server":"prd-node-2","latency":78}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T10:32:38.556Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Service healthy","server":"prd-node-1","latency":229}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T18:46:16.057Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Timeout while calling third-party API","server":"prd-api-3","latency":49}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T04:57:15.484Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":83}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T00:55:19.235Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Container restarted","server":"prd-api-3","latency":66}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T00:32:16.274Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Database reconnecting","server":"prd-node-2","latency":51}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T21:52:05.088Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Container restarted","server":"prd-node-2","latency":167}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T07:57:57.373Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Service healthy","server":"prd-api-3","latency":129}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T10:32:33.388Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Circuit breaker opened","server":"prd-node-2","latency":2}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T02:40:11.334Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Latency spike detected","server":"prd-cache-1","latency":246}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T06:00:15.592Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Service healthy","server":"prd-node-2","latency":170}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T09:04:48.524Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":400},"message":"User API error","server":"prd-node-2","latency":5}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T09:52:59.483Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":60}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T20:51:58.436Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Container restarted","server":"prd-api-3","latency":52}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T03:46:17.109Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":500},"message":"User API error","server":"prd-api-3","latency":124}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T11:02:16.717Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Service healthy","server":"prd-node-2","latency":9}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T18:23:31.210Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Circuit breaker opened","server":"prd-api-3","latency":175}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T15:07:00.128Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Service healthy","server":"prd-api-3","latency":34}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T17:50:10.875Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":236}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T13:51:21.022Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Container restarted","server":"prd-node-2","latency":126}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T01:43:06.053Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Service healthy","server":"prd-api-3","latency":131}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T19:02:22.044Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Container restarted","server":"prd-node-1","latency":199}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T19:50:32.205Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Container restarted","server":"prd-node-2","latency":194}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T20:00:59.765Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-node-1","latency":192}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T22:36:25.207Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":208}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T06:59:53.929Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":500},"message":"User API error","server":"prd-api-3","latency":53}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T04:53:46.724Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Cache eviction initiated","server":"prd-cache-1","latency":82}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T11:22:02.824Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Latency spike detected","server":"prd-node-1","latency":125}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T12:32:15.542Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Latency spike detected","server":"prd-api-3","latency":222}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T21:45:48.768Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":200},"message":"Service healthy","server":"prd-cache-1","latency":252}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T17:29:14.520Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Container restarted","server":"prd-api-3","latency":190}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T11:32:16.420Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Latency spike detected","server":"prd-node-2","latency":88}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T02:53:04.548Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Latency spike detected","server":"prd-api-3","latency":168}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T12:50:51.030Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Database reconnecting","server":"prd-node-1","latency":22}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T11:46:08.215Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-cache-1","latency":83}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T13:53:21.904Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Container restarted","server":"prd-node-1","latency":122}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T22:41:21.014Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"User API error","server":"prd-cache-1","latency":258}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T19:15:06.907Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Container restarted","server":"prd-cache-1","latency":178}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T07:36:58.864Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Service healthy","server":"prd-node-1","latency":115}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T23:44:21.705Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Circuit breaker opened","server":"prd-api-3","latency":81}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T12:45:14.963Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Latency spike detected","server":"prd-api-3","latency":55}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T00:20:45.011Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Cache eviction initiated","server":"prd-cache-1","latency":166}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T07:38:56.248Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Latency spike detected","server":"prd-node-2","latency":93}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T07:59:26.049Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":200},"message":"Latency spike detected","server":"prd-api-3","latency":84}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T23:31:35.202Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Service healthy","server":"prd-api-3","latency":257}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T06:22:45.093Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Container restarted","server":"prd-node-1","latency":48}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T22:58:09.949Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":400},"message":"User API error","server":"prd-cache-1","latency":180}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T21:18:41.855Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-cache-1","latency":221}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T18:32:33.145Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":198}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T12:31:06.833Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-node-2","latency":115}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T11:45:03.020Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-cache-1","latency":37}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T07:26:59.072Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":229}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T12:28:31.711Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Container restarted","server":"prd-node-2","latency":21}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T23:43:32.503Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":200},"message":"User API error","server":"prd-node-1","latency":279}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T16:58:06.856Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-api-3","latency":77}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T20:44:38.837Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Circuit breaker opened","server":"prd-node-2","latency":291}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T14:44:57.790Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Container restarted","server":"prd-node-1","latency":243}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T23:56:26.769Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Cache eviction initiated","server":"prd-node-1","latency":42}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T07:19:35.619Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Circuit breaker opened","server":"prd-node-2","latency":278}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T09:44:44.124Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":400},"message":"User API error","server":"prd-cache-1","latency":109}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T08:56:42.907Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Cache eviction initiated","server":"prd-api-3","latency":165}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T04:07:14.318Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":195}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T22:34:29.289Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Service healthy","server":"prd-cache-1","latency":111}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T05:43:21.846Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Cache eviction initiated","server":"prd-cache-1","latency":163}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T01:30:22.979Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"User API error","server":"prd-node-1","latency":142}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T10:32:52.241Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":400},"message":"User API error","server":"prd-api-3","latency":43}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T20:42:14.119Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Service healthy","server":"prd-api-3","latency":3}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T14:54:55.508Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":404},"message":"User API error","server":"prd-node-1","latency":166}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T07:30:05.234Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Container restarted","server":"prd-node-1","latency":279}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T22:29:38.979Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Latency spike detected","server":"prd-node-1","latency":213}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T19:24:56.765Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Container restarted","server":"prd-node-2","latency":226}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T16:09:26.376Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Container restarted","server":"prd-node-1","latency":44}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T19:42:53.391Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":500},"message":"Service healthy","server":"prd-node-2","latency":211}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T10:27:12.247Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-node-1","latency":177}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T00:31:19.996Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Circuit breaker opened","server":"prd-cache-1","latency":98}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T05:28:00.847Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Circuit breaker opened","server":"prd-api-3","latency":294}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T10:47:57.510Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-api-3","latency":254}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T08:29:10.728Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":200},"message":"User API error","server":"prd-api-3","latency":8}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T22:56:29.207Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Circuit breaker opened","server":"prd-node-2","latency":156}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T23:19:32.835Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Service healthy","server":"prd-api-3","latency":17}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T13:55:53.401Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":241}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T17:47:25.960Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Database reconnecting","server":"prd-cache-1","latency":100}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T09:07:15.655Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Cache eviction initiated","server":"prd-cache-1","latency":263}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T23:37:09.006Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Circuit breaker opened","server":"prd-cache-1","latency":166}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T20:38:42.229Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-api-3","latency":197}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T09:05:32.667Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-cache-1","latency":235}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T06:55:17.839Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Service healthy","server":"prd-api-3","latency":21}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T20:05:02.857Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":250}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T13:18:21.588Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Cache eviction initiated","server":"prd-cache-1","latency":86}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T16:13:05.053Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":200},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":186}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T20:22:19.643Z","request":{"method":"POST","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Container restarted","server":"prd-node-2","latency":85}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T12:50:04.962Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Service healthy","server":"prd-node-1","latency":267}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T20:24:42.428Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-cache-1","latency":91}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T08:40:34.535Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Database reconnecting","server":"prd-cache-1","latency":80}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T19:37:58.596Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":68}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-22T04:37:32.192Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Service healthy","server":"prd-cache-1","latency":150}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T09:02:26.792Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Latency spike detected","server":"prd-cache-1","latency":0}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T07:51:31.650Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":404},"message":"User API error","server":"prd-api-3","latency":105}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T08:14:45.472Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Database reconnecting","server":"prd-node-2","latency":38}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T16:08:48.165Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Service healthy","server":"prd-node-2","latency":19}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T09:19:59.800Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Container restarted","server":"prd-api-3","latency":72}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T00:22:22.007Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"Container restarted","server":"prd-node-2","latency":66}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T19:18:22.206Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Container restarted","server":"prd-node-1","latency":108}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-14T19:51:38.521Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":404},"message":"Service healthy","server":"prd-node-1","latency":114}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T21:03:54.652Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":500},"message":"Latency spike detected","server":"prd-node-2","latency":22}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T19:22:45.926Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Latency spike detected","server":"prd-node-2","latency":80}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T09:04:00.746Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Cache eviction initiated","server":"prd-cache-1","latency":171}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-16T06:21:14.650Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-api-3","latency":142}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T09:37:01.446Z","request":{"method":"GET","url":"/api/v1/invoice-api"},"response":{"status":404},"message":"Service healthy","server":"prd-node-1","latency":142}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T10:02:24.379Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-cache-1","latency":213}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T11:50:08.008Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Database reconnecting","server":"prd-api-3","latency":70}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-24T14:19:04.744Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Circuit breaker opened","server":"prd-api-3","latency":156}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T21:24:27.662Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":200},"message":"Cache eviction initiated","server":"prd-api-3","latency":190}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T03:30:12.215Z","request":{"method":"GET","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Service healthy","server":"prd-cache-1","latency":65}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T21:00:36.276Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":500},"message":"Service healthy","server":"prd-cache-1","latency":298}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-25T05:11:55.924Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":200},"message":"Circuit breaker opened","server":"prd-node-2","latency":111}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T07:09:46.066Z","request":{"method":"GET","url":"/api/v1/payment-service"},"response":{"status":200},"message":"Container restarted","server":"prd-api-3","latency":247}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-19T12:23:49.349Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Cache eviction initiated","server":"prd-cache-1","latency":155}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T01:46:51.271Z","request":{"method":"PUT","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Cache eviction initiated","server":"prd-api-3","latency":259}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T04:33:01.159Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":404},"message":"User API error","server":"prd-cache-1","latency":76}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T03:31:57.160Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Database reconnecting","server":"prd-node-2","latency":278}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T09:30:13.454Z","request":{"method":"POST","url":"/api/v1/billing-service"},"response":{"status":400},"message":"Timeout while calling third-party API","server":"prd-cache-1","latency":299}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-23T03:39:53.240Z","request":{"method":"GET","url":"/api/v1/auth-service"},"response":{"status":500},"message":"Service healthy","server":"prd-node-2","latency":178}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-15T04:03:41.843Z","request":{"method":"PUT","url":"/api/v1/payment-service"},"response":{"status":400},"message":"User API error","server":"prd-node-2","latency":285}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T18:14:04.656Z","request":{"method":"PUT","url":"/api/v1/invoice-api"},"response":{"status":400},"message":"Container restarted","server":"prd-api-3","latency":115}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-20T04:01:29.142Z","request":{"method":"POST","url":"/api/v1/auth-service"},"response":{"status":404},"message":"Database reconnecting","server":"prd-node-1","latency":76}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-18T08:02:44.872Z","request":{"method":"POST","url":"/api/v1/invoice-api"},"response":{"status":200},"message":"Timeout while calling third-party API","server":"prd-node-1","latency":3}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-21T18:52:05.707Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Database reconnecting","server":"prd-api-3","latency":281}
+{ "index": { "_index": "dummy-logs" } }
+{"@timestamp":"2025-10-17T02:33:06.000Z","request":{"method":"PUT","url":"/api/v1/billing-service"},"response":{"status":404},"message":"Timeout while calling third-party API","server":"prd-node-2","latency":60}

@@ -3,7 +3,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import cron from "node-cron";
-import sreRoutes from "../backend/routers/sreRoutes.js"
+import sreRoutes from "../backend/flowwiseloganalysis/sreRoutes.js"
 dotenv.config();
 
 import { runAgent } from "./utilityHooks/agent.js";
